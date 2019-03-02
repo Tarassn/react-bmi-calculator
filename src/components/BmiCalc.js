@@ -20,7 +20,7 @@ class BmiCalc extends Component {
         'Underweight': {min:0,max:18.5},
         'Normal weight': {min:18.5,max:25},
         'Overweight': {min:25,max:30},
-        'Obese': {min:25,max:Infinity},
+        'Obese': {min:30,max:Infinity},
 
     };
     handleHeight = (event) => {
